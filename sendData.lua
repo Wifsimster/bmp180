@@ -1,14 +1,12 @@
 
-alti=14 -- Set your altitude in meters
+require('config')
 
+alti=14 -- Set your altitude in meters
 sda=4	-- GPIO2 connect to SDA BMP180
 scl=3	-- GPIO0 connect to SCL BMP180
 temp=0  -- Temperature
 pres=0 	-- Pressure
 oss=0   -- Over sampling setting
-
-HOST = "192.168.0.x"
-API = "youJeedomApiKey"
 
 function ReadBMP()
 	bmp180 = require("bmp180")

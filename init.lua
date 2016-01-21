@@ -1,5 +1,4 @@
-AP = "yourWifiAP"
-PWD = "yourWifipassword"
+require('config')
 
 print("Setting up WIFI...")
 wifi.setmode(wifi.STATION)
