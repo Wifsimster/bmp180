@@ -16,4 +16,6 @@ Web server waiting for request to send data.
 3. If request is ```/pres```, return BMP180 pression value in response
 3. If request is ```/reset```, restart the device
 
+## Scheme
+
 ![scheme](https://github.com/Wifsimster/bmp180/blob/master/scheme.png)
