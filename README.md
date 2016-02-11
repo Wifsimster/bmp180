@@ -1,11 +1,14 @@
-# Send temperature to Jeedom through an ESP8266
-
-Send BMP180 data to Jeedom server with esp8266
+# Send temperature and pression 
 
 This LUA script is for ESP8266 hardware.
 
+Read BMP180 data (temperature and pression).
+Web server waiting for request to send data.
+
 1. Connect to a wifi AP
 2. Start a web server and wait for HTTP request
-3. If HTTP request received, parse request and get param
+3. If request is /temp, return BMP180 temperature value in response
+3. If request is /pres, return BMP180 pression value in response
+3. If request is /reset, restart the device
 
 ![scheme](https://github.com/Wifsimster/bmp180/blob/master/scheme.png)
