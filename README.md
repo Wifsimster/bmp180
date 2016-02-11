@@ -3,6 +3,7 @@
 This LUA script is for ESP8266 hardware.
 
 Read BMP180 data (temperature and pression).
+
 Web server waiting for request to send data.
 
 1. Connect to a wifi AP
